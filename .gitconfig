@@ -1,0 +1,22 @@
+[user]
+	email = cmwesigwa@enova.com
+	name = cmwesigwa
+[alias]
+  cleanup = !git branch --merged | grep  -v '\\*\\|master\\|develop' | xargs -n 1 git branch -d
+	co = checkout
+  rem = remote -v
+  shas = log --pretty=format:\"%H\"
+  hist = log --pretty=format:\"%Cgreen%h%Creset %Cblue%ad%Creset %s%C(yellow)%d%Creset %Cblue[%an]%Creset\" --graph --date=short
+  brcrnt = rev-parse --abbrev-ref HEAD
+  brpb = !git rev-parse --abbrev-ref HEAD | xargs echo -n | pbcopy
+[color]
+  ui = true
+[color "diff"]
+  whitespace = red reverse
+[push]
+  default = upstream
+[core]
+  editor = vim
+	excludesfile = /Users/cmwesigwa/.gitignore
+[hub]
+	host = git.cashnetusa.com

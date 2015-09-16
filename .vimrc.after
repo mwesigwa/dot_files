@@ -1,0 +1,63 @@
+set encoding=utf-8
+set nocompatible
+set modelines=0
+if exists('+relativenumber')
+  set relativenumber
+endif
+if has('persistent_undo')
+  set undofile
+  set undodir=/tmp
+endif
+set hidden
+
+color wombat256mod
+set t_Co=256
+
+let mapleader = ","
+
+nnoremap / /\v
+vnoremap / /\v
+set ignorecase
+set smartcase
+set gdefault
+set incsearch
+set showmatch
+set hlsearch
+set nobackup
+set nowritebackup
+set noswapfile
+
+set wrap
+set textwidth=79
+set formatoptions=qrn1
+if exists('+colorcolumn')
+  set colorcolumn=85
+endif
+
+nnoremap <up> <nop>
+nnoremap <down> <nop>
+nnoremap <left> <nop>
+nnoremap <right> <nop>
+inoremap <up> <nop>
+inoremap <down> <nop>
+inoremap <left> <nop>
+inoremap <right> <nop>
+nnoremap j gj
+nnoremap k gk
+
+inoremap <F1> <ESC>
+nnoremap <F1> <ESC>
+vnoremap <F1> <ESC>
+inoremap jj <ESC>
+vnoremap jj <ESC>
+
+nnoremap ; :
+au FocusLost * :wa
+nnoremap <leader>W :%s/\s\+$//<cr>:let @/=''<CR>
+nnoremap <leader>S ?{<CR>jV/^\s*\}?$<CR>k:sort<CR>:noh<CR>
+nnoremap <leader>R :%s/\v\:([a-zA-Z_]*)(\s*)\=\>/\1\:/g<CR>
+nnoremap <leader>C :w !ruby -c<CR>
+nnoremap <leader>n :set nonumber!<CR>:set nonumber!<CR>
+nnoremap <leader>N :set relativenumber<CR>
+nnoremap <leader>P :set paste<CR>
+nnoremap <leader>p :set nopaste<CR>
