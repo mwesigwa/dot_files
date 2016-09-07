@@ -26,6 +26,7 @@ set hlsearch
 set nobackup
 set nowritebackup
 set noswapfile
+set nosmartindent
 
 set wrap
 set textwidth=79
@@ -57,7 +58,7 @@ nnoremap <leader>W :%s/\s\+$//<cr>:let @/=''<CR>
 nnoremap <leader>S ?{<CR>jV/^\s*\}?$<CR>k:sort<CR>:noh<CR>
 nnoremap <leader>R :%s/\v\:([a-zA-Z_]*)(\s*)\=\>/\1\:/g<CR>
 nnoremap <leader>C :w !ruby -c<CR>
-nnoremap <leader>n :set nonumber!<CR>:set nonumber!<CR>
+nnoremap <leader>n :set norelativenumber!<CR>:set nonumber!<CR>
 nnoremap <leader>N :set relativenumber<CR>
 nnoremap <leader>P :set paste<CR>
 nnoremap <leader>p :set nopaste<CR>

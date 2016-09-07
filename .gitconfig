@@ -1,9 +1,9 @@
 [user]
-	email = cmwesigwa@enova.com
-	name = cmwesigwa
+  email = cmwesigw@gmail.com
+  name = mwesigwa
 [alias]
   cleanup = !git branch --merged | grep  -v '\\*\\|master\\|develop' | xargs -n 1 git branch -d
-	co = checkout
+  co = checkout
   rem = remote -v
   shas = log --pretty=format:\"%H\"
   hist = log --pretty=format:\"%Cgreen%h%Creset %Cblue%ad%Creset %s%C(yellow)%d%Creset %Cblue[%an]%Creset\" --graph --date=short
@@ -17,6 +17,4 @@
   default = upstream
 [core]
   editor = vim
-	excludesfile = /Users/cmwesigwa/.gitignore
-[hub]
-	host = git.cashnetusa.com
+	excludesfile = ~/.gitignore

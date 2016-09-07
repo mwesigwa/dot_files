@@ -7,3 +7,6 @@ tags
 add_mocks
 reset_mocks
 prodder.yml
+log/*
+tmp/*
+.env
