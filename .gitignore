@@ -29,4 +29,5 @@ tmp/*
 .wget-hsts
 .bash_logout
 .vim/
+.ssh/
 
