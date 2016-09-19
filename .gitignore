@@ -30,4 +30,10 @@ tmp/*
 .bash_logout
 .vim/
 .ssh/
-
+.gvimrc
+.vimrc
+.zcompdump
+.zcompdump-yiyavm-5.1.1
+.zsh_history
+.zsh-update
+.oh-my-zsh/
