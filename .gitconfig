@@ -2,7 +2,7 @@
   email = cmwesigw@gmail.com
   name = mwesigwa
 [alias]
-  cleanup = !git branch --merged | grep  -v '\\*\\|master\\|develop' | xargs -n 1 git branch -d
+  cleanup = !git branch --merged | grep  -v '\\*\\|master\\|boss\\|develop' | xargs -n 1 git branch -d
   co = checkout
   rem = remote -v
   shas = log --pretty=format:\"%H\"

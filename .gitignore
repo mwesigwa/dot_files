@@ -37,3 +37,4 @@ tmp/*
 .zsh_history
 .zsh-update
 .oh-my-zsh/
+coverage/
