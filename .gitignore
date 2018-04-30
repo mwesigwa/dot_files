@@ -38,6 +38,7 @@ tmp/*
 .zsh-update
 .oh-my-zsh/
 coverage/
+.histfile
 .CFUserTextEncoding
 .Trash/
 Applications/
