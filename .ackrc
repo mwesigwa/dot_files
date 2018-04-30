@@ -1,4 +1,3 @@
---sort−files
 --color
 --type-add=css=scss,.sass
 --type-add=ruby=.haml,.rselm,.feature,.ru,.lock

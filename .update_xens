@@ -1,6 +1,0 @@
-scp ~/.bash_profile batchelorpad:~/.bash_profile
-scp ~/.bash_profile loaner_me:~/.bash_profile
-scp ~/.vimrc.after batchelorpad:~/.vimrc.after
-scp ~/.vimrc.after loaner_me:~/.vimrc.after
-scp ~/.pgpass batchelorpad:~/.pgpass
-scp ~/.pgpass loaner_me:~/.pgpass
