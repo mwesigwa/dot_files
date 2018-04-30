@@ -38,3 +38,14 @@ tmp/*
 .zsh-update
 .oh-my-zsh/
 coverage/
+.CFUserTextEncoding
+.Trash/
+Applications/
+Desktop/
+Documents/
+Downloads/
+Library/
+Movies/
+Music/
+Pictures/
+Public/

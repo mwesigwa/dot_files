@@ -17,4 +17,4 @@
   default = upstream
 [core]
   editor = vim
-	excludesfile = ~/.gitignore
+  excludesfile = ~/.gitignore
