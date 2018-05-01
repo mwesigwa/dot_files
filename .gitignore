@@ -49,4 +49,8 @@ Library/
 Movies/
 Music/
 Pictures/
+.dbeaver-drivers/
+.dbeaver4/
+.eclipse/
+.oracle_jre_usage/
 Public/
